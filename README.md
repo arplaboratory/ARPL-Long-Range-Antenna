@@ -16,7 +16,7 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
  Fig. 2: Rocket M2
  
  
-  ![Antenna](images/rocket.png)
+  ![Antenna](images/switch.png)
  Fig. 3: Switch LAN-POE
  
  
@@ -31,18 +31,18 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
 - Click on the Ubiquiti logo tab at the top left corner of the setup window page to visualize the AirMax setup page as in Fig. 4. 
 
   ![Antenna](images/Airmax_tab.png)
- Fig. 4: Airmax tab 
+ Fig. 4: Airmax tab. 
  
  
 - In the Ubiquiti logo tab check that **<br /> AIRMax <br />** is disabled. 
 - Check in the Wireless Tab that the first option Wireless Mode is configured as 'Access Point'. 
-- Check that Channel Witdh is 20 MHz.
+- Check that Channel Width is 20 MHz.
 - Check that Frequency is 'Auto'.
 - Check Antenna is the corresponding model.
 - Make a double check looking at Figure 5 to see if your age is exactly the same of the one in the figure.
   
   ![Antenna](images/Wireless_TAB.png)
- Fig. 6: Network tab 
+ Fig. 5: Wireless tab. 
 
 - In the Network Tab, check that the setting Network Mode is defined on Bridge. 
 - The Network Tab page should be appear as in Fig. 6. 
