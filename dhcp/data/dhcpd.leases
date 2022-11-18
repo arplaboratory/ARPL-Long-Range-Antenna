@@ -1,0 +1,58 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 192.168.69.0 {
+  starts 3 2022/11/02 17:28:03;
+  ends 4 2022/11/03 05:28:03;
+  tstp 4 2022/11/03 05:28:03;
+  cltt 3 2022/11/02 17:28:03;
+  binding state free;
+  hardware ethernet 70:88:6b:83:31:12;
+}
+lease 192.168.69.2 {
+  starts 4 2022/11/17 23:51:20;
+  ends 5 2022/11/18 11:51:20;
+  tstp 5 2022/11/18 11:51:20;
+  cltt 4 2022/11/17 23:51:20;
+  binding state free;
+  hardware ethernet be:7a:da:58:ab:ac;
+  uid "\001\276z\332X\253\254";
+  set vendor-class-identifier = "android-dhcp-12";
+}
+lease 192.168.69.4 {
+  starts 5 2022/11/18 00:19:41;
+  ends 5 2022/11/18 12:19:41;
+  tstp 5 2022/11/18 12:19:41;
+  cltt 5 2022/11/18 00:19:41;
+  binding state free;
+  hardware ethernet 00:0e:c6:ca:c9:46;
+}
+lease 192.168.69.3 {
+  starts 5 2022/11/18 13:48:28;
+  ends 6 2022/11/19 01:48:28;
+  tstp 6 2022/11/19 01:48:28;
+  cltt 5 2022/11/18 13:48:28;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 4c:1d:96:c7:68:f2;
+  client-hostname "ubuntu";
+}
+lease 192.168.69.1 {
+  starts 5 2022/11/18 13:48:29;
+  ends 6 2022/11/19 01:48:29;
+  tstp 6 2022/11/19 01:48:29;
+  cltt 5 2022/11/18 13:48:29;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:92:bf:b0:41:f6;
+  uid "\001\364\222\277\260A\366";
+  set vendor-class-identifier = "udhcp 1.24.2";
+  client-hostname "UBNT";
+}
+server-duid "\000\001\000\001+\011\224\015\000\016\306\312\311F";
+
