@@ -52,21 +52,19 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
 
 
 **On Your Laptop:**
- - Initialize a new workspace with the following commands 
-  ```txt
-  mkdir -p ws
- ```
- - In ws download this repository typing in a shell the following command. 
+
+ - Download this repository typing in a shell the following command. 
  ```txt
  git clone https://github.com/arplaboratory/ARPL-Long-Range-Antenna.git
  ```
- - Type ifconfig to verify the ip address assigned to your ethernet connection. If different from the range 192.168.69.XXX or not assigned  type:
-  ```txt
-sudo ifconfig {name_of_the_ethernet_connection} 192.168.1.XXX
- ```
-Change XXX with a value between 3 and 254. 
+ - Type ifconfig to verify the name of your ethernet connection. Don't worry if the ip address is not assigned. It will be assigned in the next steps.
+ 
+- Install docker if it is not alredy present in your laptop.
+- Go inside dhcp folder, open the file 'run_dhcp_docker.bash'.
+- Change 'enx000ec6cac946' with the name of your wired connection as it ppears in ifconfig.
+- Change if you want the last numbers XX (default are 69) of the ip address in the second line with a number between 3 and 254 (for example 192.168.69.200).
 
-- Go inside dhcp folder, make the script run_dhcp_docker.bash executable, run the script:
+- To make the script run_dhcp_docker.bash executable and to run it, type the commands:
  ```txt
   cd dhcp
   
