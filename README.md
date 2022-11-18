@@ -6,10 +6,18 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
 **Tools Required:**
  - Antenna Ubiquiti AM-2G 16-90 (Fig. 1) 
  - Rocket M2 (Fig. 2).
- - Switch (Fig. 3).
+ - Switch  LAN-POE (Fig. 3).
  
   ![Antenna](images/Antenna.png)
  Fig. 1: Antenna Ubiquiti AM-2G 16-90
+ 
+ 
+  ![Antenna](images/rocket.png)
+ Fig. 2: Rocket M2
+ 
+ 
+  ![Antenna](images/rocket.png)
+ Fig. 3: Switch LAN-POE
  
  
 **How To Setup the Antenna:**
@@ -19,11 +27,29 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
 - On your computer open a new page in your browser. 
 - Access to the Network Management setup page (called airOS) typing 'https://192.168.69.1
 - In the next page click Advance and Accept Risk. 
-- The login page will appear as in Fig. 4. Type login 'ubnt' and password 'arpllab11'. 
-- Click on the Ubiquiti logo tab at the top left corner of the setup window page (Fig. 5). 
+- The login page will appear. Type login 'ubnt' and password 'arpllab11'. 
+- Click on the Ubiquiti logo tab at the top left corner of the setup window page to visualize the AirMax setup page as in Fig. 4. 
+
+  ![Antenna](images/Airmax_tab.png)
+ Fig. 4: Airmax tab 
+ 
+ 
 - In the Ubiquiti logo tab check that **<br /> AIRMax <br />** is disabled. 
+- Check in the Wireless Tab that the first option Wireless Mode is configured as 'Access Point'. 
+- Check that Channel Witdh is 20 MHz.
+- Check that Frequency is 'Auto'.
+- Check Antenna is the corresponding model.
+- Make a double check looking at Figure 5 to see if your age is exactly the same of the one in the figure.
+  
+  ![Antenna](images/Wireless_TAB.png)
+ Fig. 6: Network tab 
+
 - In the Network Tab, check that the setting Network Mode is defined on Bridge. 
-- The Network Tab page should be appear as in Fig. 5. 
+- The Network Tab page should be appear as in Fig. 6. 
+
+  ![Antenna](images/Network_TAB.png)
+ Fig. 6: Network tab.
+
 
 **On Your Laptop:**
  - Initialize a new workspace with the following commands 
@@ -32,11 +58,11 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
  ```
  - In ws download this repository typing in a shell the following command. 
  ```txt
- git clone ....
+ git clone https://github.com/arplaboratory/ARPL-Long-Range-Antenna.git
  ```
- - Type ifconfig to verify the ip address assigned to your ethernet connection. If different from the range 192.168.1.XXX, type:
+ - Type ifconfig to verify the ip address assigned to your ethernet connection. If different from the range 192.168.69.XXX or not assigned  type:
   ```txt
-sudo ifconfig {name_of_the_connection} 192.168.1.XXX
+sudo ifconfig {name_of_the_ethernet_connection} 192.168.1.XXX
  ```
 Change XXX with a value between 3 and 254. 
 
