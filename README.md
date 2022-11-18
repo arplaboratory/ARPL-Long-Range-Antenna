@@ -1,12 +1,16 @@
-# ARPL-Long-Range-Antenna_setup
+# ARPL-Long-Range-Antenna
 How to setup a stable communication between your laptop and an external device through the Arpl long range antenna.
 In this reporsitory is described how to connect your laptop, through wired connection, and an external device (drone or robot) to the ARPL-Long-Range Antenna. 
 
-This repository is valid with the Antenna Ubiquiti AM ..... and the device Ubiquiti Rocket M2. 
+This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and the device Ubiquiti Rocket M2. 
 **Tools Required:**
- - Antenna ... (Fig. 1) 
+ - Antenna Ubiquiti AM-2G 16-90 (Fig. 1) 
  - Rocket M2 (Fig. 2).
  - Switch (Fig. 3).
+ 
+  ![Antenna](images/Antenna.png)
+ Fig. 1: Antenna Ubiquiti AM-2G 16-90
+ 
  
 **How To Setup the Antenna:**
 - Take the Switch and attach one side to the wall power outlet. 
