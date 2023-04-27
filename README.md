@@ -63,7 +63,7 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
 - Go inside dhcp folder, open the file 'run_dhcp_docker.bash'.
 - Change 'enx000ec6cac946' with the name of your wired connection as it ppears in ifconfig.
 - Change if you want the last numbers XX (default are 69) of the ip address in the second line with a number between 3 and 254 (for example 192.168.69.200).
-
+- Before running the bash script check that the wired connection in your pc is turned off.
 - To make the script run_dhcp_docker.bash executable and to run it, type the commands:
  ```txt
   cd dhcp
