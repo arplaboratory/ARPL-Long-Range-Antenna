@@ -27,7 +27,7 @@ This repository is valid with the Antenna Ubiquiti AM Ubiquiti AM-2G 16-90 and t
 - On your computer open a new page in your browser. 
 - Access to the Network Management setup page (called airOS) typing 'https://192.168.69.1
 - In the next page click Advance and Accept Risk. 
-- The login page will appear. Type login 'ubnt' and password 'arpllab11'. (Same password is valid for arpl-GameLab Network at the address 128.238.47.10)
+- The login page will appear. Type login 'ubnt' and password 'arpllab11'. (Same password is valid for ARPL-GameLab Network at the address 128.238.47.10. To connect to ARPL-GameLab the password is 1234567890)
 - Click on the Ubiquiti logo tab at the top left corner of the setup window page to visualize the AirMax setup page as in Fig. 4. 
 
   ![Antenna](images/Airmax_tab.png)
